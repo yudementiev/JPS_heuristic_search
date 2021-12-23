@@ -58,7 +58,6 @@ You can see an example of input data in the folder `maps`. [Sample](./maps/lt_ho
   - `distancefirst` - it is only for RRT*, distance finding the first path.
   - `pathfirst` - it is only for RRT*, describes points of the first path.
 
-[Example of output data](https://github.com/Ch0p1k3/PathPlanningAlgorithms-RRT-RRTstar-/blob/main/tests/sample/example_log.xml).
 
 
 ### Map ht_chantry
@@ -88,6 +87,6 @@ You can see an example of input data in the folder `maps`. [Sample](./maps/lt_ho
 
 ## Sources
 
-- Статья про JPS
-- Сайт с картами
-- Курс Яковлева
+- Daniel Harabor, Alban Grastien, [Online Graph Pruning for Pathfinding on Grid Maps](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwij6YPcy_n0AhXksIsKHQLvCl4QFnoECAgQAQ&url=https%3A%2F%2Fwww.aaai.org%2Focs%2Findex.php%2FAAAI%2FAAAI11%2Fpaper%2Fdownload%2F3761%2F4007&usg=AOvVaw3sWq3vcrlKtPCuZeefIdd-). NICTA and The Australian National University
+- Nathan Sturtevant, [Moving AI Lab](https://movingai.com)
+- Yakovlev Konstantin, Course on Methods and Algorithms for Heuristic Search. St. Petersburg State University
