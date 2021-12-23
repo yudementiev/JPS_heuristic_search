@@ -2,7 +2,7 @@
 
 ## Description
 
-In the file `JPS_upg.ipynb` implements two heuristic search algorithms:
+In the file `JPS_upg.ipynb` implements two heuristic search algorithms for 8-connected uniform-cost creed:
 - A*, in which it is allowed to cut corners (see figure), with a diagonal heuristic
 - JPS with a diagonal heuristic, where it is also assumed that the agent can cut corners.
 
