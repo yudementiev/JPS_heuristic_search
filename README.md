@@ -76,136 +76,14 @@ You can see an example of input data in the folder `tests`. [Sample](https://git
 
 [Example of output data](https://github.com/Ch0p1k3/PathPlanningAlgorithms-RRT-RRTstar-/blob/main/tests/sample/example_log.xml).
 
-## Getting started
-
-To build and run the project you should have compiler on C++17 standart.
-
-The project should be built with CMake.
-
-Building and launching can be done both from the command line and using various IDEs. Below are the build and run scripts using the command line.
-
-In order to build SFML on Linux, several libraries and their development headers need to be installed first. [Tutorial: Installing SFML dependencies.](https://github.com/SFML/SFML/wiki/Tutorial%3A-Installing-SFML-dependencies)
-
-### SFML
-
-If you have SFML, you can skip this. if you have Linux, you can download binaries of SFML with:
-
-```bash
-sudo apt-get install libsfml-dev
-```
-
-This was example for Ubuntu, for other Linux system is similar.
-
-If you have MacOS:
-
-```bash
-brew install sfml
-```
-
-If you have Windows and msys2, you can use:
-
-```bash
-pacman -S mingw-w64-x86_64-sfml
-```
-
-Another option is to build the downloaded SFML. SFML is located in `src/lib/SFML`. You can use:
-
-#### Windows
-```cmd
-cd PathPlanningAlgorithms-RRT-RRTstar-/src/lib/SFML
-cmake . -DCMAKE_BUILD_TYPE="Release" -Bbuild -G"MinGW Makefiles" -DCMAKE_INSTALL_PREFIX="SFML"
-cd build
-mingw32-make install
-```
-
-#### Linux and Mac
-```bash
-cd PathPlanningAlgorithms-RRT-RRTstar-/src/lib/SFML
-cmake . -DCMAKE_BUILD_TYPE="Release" -Bbuild -DCMAKE_INSTALL_PREFIX="SFML"
-cd build
-make install
-```
-
-After these steps you will have SFML. The next is the build of the project itself.
-
-#### Linux and Mac
-
-**Release building**
-
-```bash
-cd PathPlanningAlgorithms-RRT-RRTstar-
-cmake . -DCMAKE_BUILD_TYPE="Release" -Bbuild
-cd build
-make install
-```
-
-**Debug building**
-
-```bash
-cd PathPlanningAlgorithms-RRT-RRTstar-
-cmake . -DCMAKE_BUILD_TYPE="Debug" -Bbuild
-cd build
-make install
-```
-
-#### Windows
-
-**Release building**
-
-```cmd
-cd PathPlanningAlgorithms-RRT-RRTstar-
-cmake . -DCMAKE_BUILD_TYPE="Release" -Bbuild -G"MinGW Makefiles"
-cd build
-mingw32-make install
-```
-
-**Debug building**
-
-```cmd
-cd PathPlanningAlgorithms-RRT-RRTstar-
-cmake . -DCMAKE_BUILD_TYPE="Debug" -Bbuild -G"MinGW Makefiles"
-cd build
-mingw32-make install
-```
-
-**Launching**
-
-```bash
-cd bin/{debug|release}/
-./RRT-RRTstar <path to XML file> <args>
-```
-
-**Arguments**
-
-In addition to the input data, there are arguments
-
-- `-v` - launch with a visualizer that builds a tree online.
-- `-va` - launch with a visualizer that will show the worked out algorithm at the end.
-- `-vawt` - same as `-va`, but without the tree itself.
-- `-secret` - just draws map, start and finish points.
-
-If no arguments are specified, then the launch will be without a visualizer. All other arguments are ignored.
-
-Algorithm time in -v mode NOT EXACT.
-
-Argument priority
-
-- `-secret`
-- `-vawt`
-- `-va`
-- `-v`
-
-That is, if a higher priority argument is specified, the others will be ignored.
-
-## Visualizer
 
 ### Launch with visualizer
 
 - `-v`
 
 RRT
-![vis](./images/ht_chantry_A*.png)
-![vis](./images/ht_chantry_JPS.png)
+![vis](https://github.com/Classman-wand/JPS/images/ht_chantry_A*.png)
+![vis](https://github.com/Classman-wand/JPS/images/ht_chantry_JPS.png)
 
 
 ## Sources
