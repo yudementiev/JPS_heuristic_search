@@ -92,6 +92,22 @@ Below is a visualization of the algorithms on three different maps.
 - Algorithm: JPS
 ![vis](./Images/lt_house_JPS.png)
 
+### 4. Map den011d
+
+- Algorithm: A*
+![vis](./Images/Ast_close.png)
+
+- Algorithm: JPS
+![vis](./Images/JPS_close.png)
+
+### 5. Map duskwood
+
+- Algorithm: A*
+![vis](./Images/Ast_open.png)
+
+- Algorithm: JPS
+![vis](./Images/JPS_open.png)
+
 
 ## Sources
 
