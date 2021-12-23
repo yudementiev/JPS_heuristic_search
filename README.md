@@ -70,7 +70,7 @@ Below is a visualization of the algorithms on three different maps.
 - Blue - is the path found by the algorithm
 - Red - jump points along the path for the JPS algorithm
 
-### Map ht_chantry
+### 1. Map ht_chantry
 
 - Algorithm: A*
 ![vis](./Images/ht_chantry_A*.png)
@@ -78,7 +78,7 @@ Below is a visualization of the algorithms on three different maps.
 - Algorithm: JPS
 ![vis](./Images/ht_chantry_JPS.png)
 
-### Map ht_store
+### 2. Map ht_store
 
 - Algorithm: A*
 ![vis](./Images/ht_store_A*.png)
@@ -86,7 +86,7 @@ Below is a visualization of the algorithms on three different maps.
 - Algorithm: JPS
 ![vis](./Images/ht_store_JPS.png)
 
-### Map lt_house
+### 3. Map lt_house
 
 - Algorithm: A*
 ![vis](./Images/lt_house_A*.png)
