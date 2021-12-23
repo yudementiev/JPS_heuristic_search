@@ -45,20 +45,16 @@ or insert into ipynb cell
 - Input files of our algorithm: two files with extensions `.map` and `.map.scen` in the [movingai](https://movingai.com/benchmarks/formats.html) format.
 
 
-You can see an example of input data in the folder `maps`. [Sample](./maps/lt_house.map). In case of incorrect data, there may be undefined behavior.
+You can see an example of input data in the folder `maps`. [Sample map](./maps/lt_house.map), [Sample task](./maps/lt_house.map.scen). In case of incorrect data, there may be undefined behavior.
 
-### Output file
+### Output
 
-- Tag `root`. It describes the parameters.
-  - `time` - algorithm running time.
-  - `countofedges` - number of edges created.
-  - `pathfound` - the tag that describes whether a path is found.
-  - `distance` - length of the path found.
-  - `path` - describes points of the path.
-  - `timefirst` - it is only for RRT*, algorithm running time, time spent finding the first path.
-  - `countofedgesfirst` - it is only for RRT*, count of edges spent finding the first path.
-  - `distancefirst` - it is only for RRT*, distance finding the first path.
-  - `pathfirst` - it is only for RRT*, describes points of the first path.
+At the output of the work, you get for each of the following algorithms:
+- The path found
+- Path length
+- Array of expanded nodes
+- Array of visited nodes
+- And you can also visualize it all with the function `Draw` for A*, and `Draw_JPS` for JPS.
 
 
 ## Examples of work
