@@ -43,7 +43,7 @@ or insertinto ipynb cell
 - Input files of our algorithm: two files with extensions `.map` and `.map.scen` in the [movingai](https://movingai.com/benchmarks/formats.html) format.
 
 
-You can see an example of input data in the folder `maps`. [Sample](https://github.com/Classman-wand/JPS/maps/lt_house.map). In case of incorrect data, there may be undefined behavior.
+You can see an example of input data in the folder `maps`. [Sample](./maps/lt_house.map). In case of incorrect data, there may be undefined behavior.
 
 ### Output file
 
