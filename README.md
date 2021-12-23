@@ -59,6 +59,16 @@ You can see an example of input data in the folder `maps`. [Sample](./maps/lt_ho
   - `pathfirst` - it is only for RRT*, describes points of the first path.
 
 
+## Examples of work
+
+Below is a visualization of the algorithms on three different maps.
+- Dark gray - obstacles
+- Gray - vertices revealed by the algorithm
+- Light gray - vertices visited by the algorithm
+- Green - start
+- Pale red - finish
+- Blue is the path found by the algorithm
+- Red - jump points along the path for the JPS algorithm
 
 ### Map ht_chantry
 
